@@ -1,16 +1,16 @@
 /* Write Your CSS Below 
 Colors: 
-- rgb(243, 183, 106)
+- rgb(243, 183, 106) lighter orange
 - yellow
-- rgb(241, 117, 0)
+- rgb(241, 117, 0) more orangey red
 - red
-- #f3b76a
-- #f17500
-- #0d6e00
-- #6d00fb
-- #dbff39
-- #74c9f1
-- #fb4040
+- #f3b76a light orange
+- #f17500 orange
+- #0d6e00 dark green
+- #6d00fb purple
+- #dbff39 lime green
+- #74c9f1 light blue
+- #fb4040 orangey red
 
 Sizes: 
 - 100%
@@ -27,3 +27,41 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body{
+    font-family: "Copperplate", sans-serif ;
+    background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* display: flex;*/
+}
+
+h1{
+    color: #6d00fb ;
+    background: linear-gradient(to bottom,#74c9f1, #fb4040) ;
+    background-size: cover;
+    text-shadow: 0 0 10px yellow;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+
+p{
+    color: white ;
+    border-radius: 10px;
+}
+
+#jorsans-1{
+    border: solid #6d00fb  ;
+    border-left: 8px;
+    border-top: 1px;
+}
+
+#jordans-1-desc{
+    background: #74c9f1;
+    width: 70%;
+    border: 3px solid rgb(241, 117, 0);
+}
